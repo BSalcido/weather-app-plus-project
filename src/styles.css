@@ -1,0 +1,118 @@
+body {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  margin: auto;
+  max-width: 900px;
+}
+.newCity {
+  margin: 30px auto;
+}
+.submitBtn {
+  background-color: #6b86ac;
+  border-color: #6b86ac;
+}
+.currentBtn {
+  background-color: #6fa072;
+  border-color: #6fa072;
+}
+.submitBtn:hover {
+  background-color: #a0c8ff;
+  border-color: #a0c8ff;
+}
+.currentBtn:hover {
+  background-color: #a0e5a5;
+  border-color: #a0e5a5;
+}
+
+.currentStatus,
+.forecast {
+  margin: 30px auto;
+  border-radius: 8px;
+}
+.currentStatus {
+  margin: 30px auto;
+  padding: 30px 45px;
+  background: rgb(255, 201, 150);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 201, 150, 1) 10%,
+    rgba(255, 132, 116, 1) 50%,
+    rgba(159, 95, 128, 1) 90%
+  );
+}
+.currentWeather {
+  text-align: right;
+  padding-right: 20px;
+}
+.imgCurrentWeather {
+  margin: auto 0 auto auto;
+  display: block;
+  width: 110px;
+}
+.city {
+  font-size: 60px;
+  margin: 25px auto;
+}
+.date {
+  font-size: 25px;
+}
+.currentConditions {
+  padding-left: 20px;
+}
+.temperatureDisplay {
+  margin: 0 auto 25px;
+}
+.temperatureNow {
+  font-size: 90px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.temperatureNumber {
+  margin-right: 10px;
+  display: inline-block;
+}
+.temperatureUnit {
+  font-size: 30px;
+}
+.temperatureLink {
+  color: #b6687d;
+  text-decoration: none;
+  width: 50px;
+}
+.temperatureLink:hover {
+  color: #583d71;
+}
+.phrase {
+  font-size: 30px;
+  padding-top: 0;
+}
+.extraFacts {
+  line-height: 1.5;
+  font-size: 25px;
+}
+.humidityPer,
+.windVel,
+.precipitationProb {
+  width: 30px;
+  position: relative;
+  bottom: 4px;
+}
+.infoFacts {
+  margin-left: 7px;
+}
+
+.forecast {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  background: rgb(255, 132, 116);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 132, 116, 1) 2%,
+    rgba(159, 95, 128, 1) 30%,
+    rgba(88, 61, 114, 1) 80%
+  );
+}
+.forecastImages {
+  width: 80px;
+}
