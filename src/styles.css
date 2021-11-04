@@ -116,3 +116,7 @@ body {
 .forecastImages {
   width: 80px;
 }
+.footerNote {
+  text-align: right;
+  color: #0000006e;
+}
