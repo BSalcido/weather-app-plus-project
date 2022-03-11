@@ -41,7 +41,7 @@ dateInfo.innerHTML = day + " " + date + "/" + month;
 timeInfo.innerHTML = onlyHour;
 
 // Search engine
-let apiKey = "88280378971b82be0f41ff351c36026a";
+let apiKey = "2feb2c01d0877b35434ff4165f9feb51";
 let units = "metric";
 function handleSubmitBtn(event) {
   event.preventDefault();
